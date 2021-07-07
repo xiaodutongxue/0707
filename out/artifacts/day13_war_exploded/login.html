@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+</head>
+<!--<style>
+   form{
+        width: 400px;
+        height: 200px;
+        border: 1px black solid;
+        text-align: center;
+        margin:auto;
+    }
+</style>-->
+<body>
+<form action="login" method="post">
+    <label>姓名：</label><input type="text" name="username"><br>
+    <label>密码：</label><input type="password" name="password"><br>
+    <lable>性别：</lable><input type="radio" name="sex" value="男">男<input type="radio" value="女" name="sex">女<br>
+    <lable>爱好：</lable>
+    <input type="checkbox" name="hobby">唱歌&nbsp&nbsp
+    <input type="checkbox" name="hobby">跳舞&nbsp&nbsp
+    <input type="checkbox" name="hobby">上网&nbsp&nbsp
+    <input type="checkbox" name="hobby">跑步&nbsp<br>
+    <lable>地址：</lable>
+    <select name="address" >
+        <option value="河北">河北</option>
+        <option value="重庆">重庆</option>
+        <option value="成都">成都</option>
+    </select>
+    <br>
+    <textarea name="Personal" i cols="30" rows="10"></textarea><br>
+    <input type="submit" value="登录">&nbsp&nbsp
+    <input type="button" value="取消">
+</form>
+</body>
+</html>
